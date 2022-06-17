@@ -1,3 +1,4 @@
+
 function validate(){
     var username = document.getElementById("user").value;
     var password = document.getElementById("password").value;

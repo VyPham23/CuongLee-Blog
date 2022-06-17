@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
-    <script src="login.js"></script>
 </head>
 <body>
     <div class="img1"></div>
@@ -28,10 +27,19 @@
 
             <input type="submit" value="LOG IN" onclick="validate()">
 
-            <div class="signup_link">
+            <!--div class="signup_link">
                 Don't have an account yet? <a href="signup.html">Sign up</a>
-            </div>
+            </div-->
         </form>
     </div>
+    <script>
+        function validate(){
+        var username = document.getElementById("user").value;
+        var password = document.getElementById("password").value;
+        if ( username == "phammaivy" && password == "12345"){
+            window.open("blog.html"); // Redirecting to other page.
+        }
+    }
+    </script>
 </body>
 </html>
