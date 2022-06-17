@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
 </head>
 <body>
     <div class="img1"></div>
@@ -13,19 +14,19 @@
 
             <button class="btn">Log In with Google</button>
 
-            <h2>OR LOG IN WITH EMAIL</h2>
+            <h2>OR LOG IN WITH USERNAME</h2>
 
             <div class="txt_field">
-                <input type="email" placeholder="Your Email">
+                <input type="text" id="user" placeholder="Your Username">
             </div>
 
             <div class="txt_field">
-                <input type="password" placeholder="Your Password">
+                <input type="password" id="password" placeholder="Your Password">
             </div>
 
-            <div class="pass">Forgot Password?</div>
+            <!--<div class="pass">Forgot Password?</div>-->
 
-            <input type="submit" value="LOG IN">
+            <input type="submit" value="LOG IN" onclick="validate()">
 
             <div class="signup_link">
                 Don't have an account yet? <a href="signup.html">Sign up</a>
