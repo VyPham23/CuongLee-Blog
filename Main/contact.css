@@ -1,5 +1,5 @@
 body{
-    height: 1460px;
+    height: 1200px;
 }
 
 .contactimg{
@@ -40,4 +40,14 @@ form .txt_field{
 #mes{
     height: 150px;
     width: 100%;
+}
+
+#btnsend{
+    float: right;
+    width: 160px;
+    height: 40px;
+    background: rgba(221, 161, 56, 0.75);
+    border: none;
+    font-size: 16px;
+    padding-top: 5px;
 }
