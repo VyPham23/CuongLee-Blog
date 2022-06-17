@@ -1,0 +1,43 @@
+body{
+    height: 1460px;
+}
+
+.contactimg{
+    position: absolute;
+    width: 810px;
+    height: 671px;
+    left: 630px;
+    top: 224px;
+    background: url(material/contact.jpg);
+}
+
+.contactbox{
+    position: absolute;
+    width: 549px;
+    height: 543px;
+    left: 221px;
+    top: 288px;
+
+    background: #FAF0E2;
+}
+
+.contactbox form{
+    padding: 20px;
+    margin: 50px 20px 20px 20px;
+}
+
+.txt_field input{
+    height: 40px;
+    width: 100%;
+}
+
+form .txt_field{
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#mes{
+    height: 150px;
+    width: 100%;
+}
