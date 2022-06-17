@@ -1,0 +1,87 @@
+.coverimg{
+    width: 1440px;
+    height: 1000px;
+    position: absolute;
+
+}
+
+.textbox{
+    position: absolute;
+    width: 647px;
+    height: 336px;
+    top: 490px;
+    left: 228px;
+    background: #FAF0E2;
+}
+
+.textbox p{
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.orange{
+    position: absolute;
+    width: 1440px;
+    height: 117px;
+    top: 966px;
+
+    background: #DDA138;
+}
+
+.main{
+    height: 3000px;
+    background: #FAF0E2;
+    text-align: center;
+}
+
+#pic9{
+    position: absolute;
+    width: 358px;
+    left: 288px;
+    top: 1195px;
+}
+
+.introtext{
+    box-sizing: border-box;
+    position: absolute;
+    width: 475px;
+    height: 624px;
+    left: 592px;
+    top: 1560px;
+    background: #FAF0E2;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+}
+
+.introtext h1{
+    color: #000000;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+#tellme{
+    position: relative;
+    top: 2100px;
+    color: #000000;
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mycat{
+    position: relative;
+    top: 2150px;
+    color: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnnext{
+    position: relative;
+    width: 160px;
+    height: 53px;
+    top: 2200px;
+    background: rgba(221, 161, 56, 0.75);
+    border: none;
+}
