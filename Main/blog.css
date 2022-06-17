@@ -1,0 +1,59 @@
+.contentarea{
+    padding-bottom: 400px;
+}
+
+#main{
+    color: white;
+}
+
+#main h1{
+    position: relative;
+    text-align: center;
+    margin: 40px auto 40px auto;
+}
+
+#main h2{
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 15px auto 15px auto;
+}
+
+#main p{
+    margin: 40px 150px;
+    padding: 0 80px 40px;
+    opacity: 70%;
+
+}
+
+#imgpost{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.form-control{
+    height: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contentarea .btn{
+    color: #ffffff;
+    background: none;
+    position: absolute;
+    display: block;
+    right: 360px;
+    height: 40px;
+    width: 60px;
+    border: solid #DDA138;
+    margin-top: 15px;
+}
+

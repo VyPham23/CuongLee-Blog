@@ -1,0 +1,293 @@
+body{
+    font-family: sans-serif;
+    position: absolute;
+    top: 0px;
+    width: 1440px;
+    font-size: 14px;
+    font-weight: 100;
+    background-color: #010204;
+}
+
+ul.nav{
+    position: relative;
+    right: 90px;
+}
+
+.logo{
+    background: url(material/logo.png) no-repeat;
+    position: absolute;
+    width: 122px;
+    height: 121px;
+    left: 90px;
+    top: 88px;
+    background-size: contain;
+    }
+
+button.nav-item{
+    background: #010204;
+    color: white;
+    border: solid #DDA138 ;
+    outline: none;
+    width: 110px;
+    margin: 0 4px;
+}
+
+button.nav-item a{
+    text-decoration: none;
+}
+
+.nav{
+    margin-top: 157px;
+    margin-right: 65px;
+    margin-left: 736px;
+}
+
+.nav .nav-item a{
+    color: white;
+    font-size: 20px;
+}
+
+.hinhanh{
+    background: url(material/deji-akinyele-ARm28szwP0o-unsplash\ 1.png) no-repeat center;
+    position: absolute;
+    width: 1440px;
+    height: 660px;
+    background-size: contain;
+    top: 240px;
+    object-fit: fill;
+}
+.hinhanh p{
+    position: absolute;
+    width: 783px;
+    top: 450px;
+    left: 100px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: hard-light;
+    opacity: 50%;
+}
+
+h1{
+    position: relative;
+    top: 30px;
+    color: #DDA138;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hobbies{
+    position: relative;
+    top: 750px;
+    margin-bottom: 40px;
+}
+
+.gallery{
+	position: relative;
+    top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.gallery img{
+	height: 400px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery p{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    opacity: 70%;
+}
+
+#middleimg{
+    margin-top: 50px;
+}
+
+.rectangle{
+    background: #FAF0E2;
+    position: relative;
+    top: 900px;
+    height: 150px;
+}
+
+.rectangle h1{
+    line-height: 120px;
+    top: 0;
+    padding: 15px;
+
+    outline: solid #DDA138;
+}
+
+.intro{
+    position: relative;
+    top: 950px;
+    background: #010204;
+    width: 100%;
+}
+
+.img1{
+    position: absolute;
+    top: 0;
+    width: 747px;
+    height: 742px;
+    left: 693px;
+    background: url(material/1.png) no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.mainintro{
+    position: absolute;
+    width: 500px;
+    left: 100px;
+    top: 200px;
+    opacity: 70%;
+}
+
+.mainintro h2{
+    margin-bottom: 140px;
+    color: #DDA138;
+    font-weight: bold;
+}
+
+.mainintro p{
+    font-size: 18px;
+    color:#FAF0E2;
+}
+
+.mainintro button{
+    background: #010204;
+    border: solid #DDA138 ;
+    outline: none;
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.mainintro button a{
+    text-decoration: none;
+    color:#FAF0E2;
+    font-size: 18px;
+    margin: auto;
+}
+
+.corevalue{
+    position: relative;
+    background: #FAF0E2;
+    top: 1690px;
+    height: 320px;
+}
+
+.rec{
+    height: 280;
+    position: relative;
+    top: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: solid #DDA138;
+}
+
+.corevalue h1{
+    line-height: 80px;
+}
+
+.corevalue p{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;  
+}
+
+.latest{
+    top: 1690px;
+    height: 800px;
+    position: relative;
+}
+
+.latest img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.latest h1{
+    position: relative;
+    top: 50px;
+}
+
+.latest p{
+    position: relative;
+    color: #ffffff;
+    padding-top: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.latest a{
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    background:#010204;
+    bottom: 0;
+    border: solid #DDA138;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer p{
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.logo2{
+    background: url(material/logo.png) no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+.container{
+    margin: 0 100px 0 100px;
+    max-width: 100%;
+}
+
+.sns{
+    position: absolute;
+    bottom: 45px;
+}
+
+.bi{
+    color: #ffffff;
+    padding: 4px 4px 0 4px;
+}
+
+.pagination{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
